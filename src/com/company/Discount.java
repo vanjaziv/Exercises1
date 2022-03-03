@@ -13,6 +13,6 @@ public class Discount {
 
         int nonAlcoholic = 1;
         int alchocolic = 0;
-        System.out.println("In this grocery I get a discount: " + (nonAlcoholic>= 1 && alchocolic< 1));
+        System.out.println("In this grocery I get a discount: " + (nonAlcoholic>= 1 && alchocolic ==0));
     }
 }
